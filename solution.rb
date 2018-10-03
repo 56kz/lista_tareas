@@ -22,7 +22,6 @@ end
 post '/find' do
   @busqueda = Tarea.find(params[:id])
   erb :busqueda
-  # redirect '/'
 end
 
 post '/delete' do
